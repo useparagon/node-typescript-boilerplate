@@ -19,6 +19,7 @@
     "typescript": "~3.6.0"
   },
   "scripts": {
+    "start": "node dist/main.js",
     "clean": "rimraf coverage dist tmp",
     "build": "tsc -p tsconfig.release.json",
     "build:watch": "tsc -w -p tsconfig.release.json",
